@@ -6,8 +6,8 @@ import './App.css'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePages />} />
-      <Route path="checkout/" element={<CheckoutPage />} />
+      <Route index element={<HomePages />} />
+      <Route path="checkout" element={<CheckoutPage />} />
     </Routes>
   )
 }
