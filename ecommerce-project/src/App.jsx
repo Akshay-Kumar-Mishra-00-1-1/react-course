@@ -1,16 +1,15 @@
 import { Routes, Route } from 'react-router';
 import { HomePages } from './pages/HomePage.jsx';
+import { CheckoutPage } from './pages/CheckoutPage';
 import './App.css'
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePages />} />
-      <Route path="checkout/" element={<div>Test Checkout Page</div>} />
+      <Route path="checkout/" element={<CheckoutPage />} />
     </Routes>
   )
 }
 
 export default App
-
-// 5:38:45
